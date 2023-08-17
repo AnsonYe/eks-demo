@@ -3,6 +3,10 @@ variable "cluster_name" {
   default = "demo"
 }
 
+variable "kubernets_version" {
+  default = "1.27"
+}
+
 provider "aws" {
   region = "us-east-1"
 }
